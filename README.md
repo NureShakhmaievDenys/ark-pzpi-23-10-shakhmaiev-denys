@@ -4,6 +4,6 @@
 
 шахмаєв Денис
 
-Чистий код на Go: Принципи, інструменти та "The Go Way"
+Правила з оформлення та стилю коду на мові Go(Golang) за стандартами філософії "The Go Way".
 
-Покращення читабельності та структури коду: Rename Method, Hide Method, Form Template Method
+Покращення структури коду Go: Рефакторинг через Rename, Hide та Form Template Method
