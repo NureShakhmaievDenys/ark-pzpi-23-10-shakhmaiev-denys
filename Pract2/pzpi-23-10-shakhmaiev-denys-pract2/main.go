@@ -39,7 +39,7 @@ func (r *ReportGenerator) GetDBConnection() string {
 	return "user:pass@tcp(127.0.0.1)/db"
 }
 
-/*
+
 type TextReport struct {}
 func (t *TextReport) Generate() {
 	fmt.Println("1. Getting text data...")
@@ -53,7 +53,7 @@ func (c *CsvReport) Generate() {
 	fmt.Println("2. Formatting data as CSV")
 	fmt.Println("3. Saving to .csv file")
 }
-*/
+
 type reportImplementation interface {
 	getData()
 	formatData()
